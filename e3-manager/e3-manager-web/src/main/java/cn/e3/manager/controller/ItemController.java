@@ -24,6 +24,7 @@ public class ItemController {
 	@ResponseBody
 	public TbItem findItemByID(@PathVariable Long itemId){
 		//调用service服务方法
+		//测试github
 		TbItem item = itemService.findItemByID(itemId);
 		return item;
 	}
